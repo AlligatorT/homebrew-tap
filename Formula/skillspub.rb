@@ -18,6 +18,6 @@ class Skillspub < Formula
     assert_equal 1, json["schemaVersion"]
     shared = json["data"].find { |t| t["key"] == "shared" }
     refute_nil shared, "expected a shared Skill Target"
-    assert_match ".agents/skills", shared["discoveryRoot"]
+    assert_includes shared["discoveryRoot"], ".agents/skills"
   end
 end
