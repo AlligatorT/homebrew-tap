@@ -1,8 +1,8 @@
 class Skillspub < Formula
   desc "Multi-agent skills on/off manager (disk is the source of truth)"
   homepage "https://github.com/AlligatorT/SkillsPub"
-  url "https://registry.npmjs.org/skillspub/-/skillspub-0.1.0.tgz"
-  sha256 "cd6b603cf92a36ee61c6b3796fed229e9d1daa4ef8d4406280559ea72b7efdc7"
+  url "https://registry.npmjs.org/skillspub/-/skillspub-0.2.0.tgz"
+  sha256 "bee2e478c8278996651a11c2f7c862d143e9f28ce9873a9fa4ca2a6f37e1987d"
   license "MIT"
 
   depends_on "node"
